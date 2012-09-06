@@ -56,6 +56,11 @@ h1#page_heading
 {
   font-size: 24pt;
 	color: #000 !important;
+	
+  background-image:url('header2.png');
+  background-size: 955px 104px;
+	width: 955px;
+	height:104px;
 }
 
 h2
@@ -125,10 +130,11 @@ img
 {
   position: absolute;
   width: 15em;
-  top: -1px;
+  top: 112px;
   right: -1px;
 
-  border: none;
+  border-left: solid 1px green;
+  #border: none;
   padding: 5px;
 }
 
@@ -169,7 +175,7 @@ img
 #navigation input
 {
   border: solid 1px black;
-  width: 100%;
+  width: 15em;
 	margin-left: 10px;
 }
 
