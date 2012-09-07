@@ -17,4 +17,8 @@ module ApplicationHelper
       'base'   => error.last
     }[error.first.to_s]
   end
+  
+  def allow_comments?
+    false
+  end
 end
