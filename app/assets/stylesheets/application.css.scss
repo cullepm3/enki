@@ -16,7 +16,7 @@ body
 {
   color: black;
 
-  font: normal 12px 'Comic Sans MS', verdana, arial, helvetica, sans-serif;
+  font: normal 18px 'Comic Sans MS', verdana, arial, helvetica, sans-serif;
   line-height: 1.5;
   padding: 0px;
   margin: 0px;
@@ -59,7 +59,8 @@ h1#page_heading
   font-family: 'Bangers', cursive;
   font-size: 50pt;
 	color: #000 !important;
-
+  margin-top: 20px;
+  margin-bottom: 30px;
   background-image:url('header.png');
 
 	width: 955px;
@@ -145,8 +146,8 @@ img
 #navigation
 {
   position: absolute;
-  width: 15em;
-  top: 112px;
+  width: 9em;
+  top: 130px;
   right: -1px;
 
   border-left: solid 1px black;
@@ -191,7 +192,7 @@ img
 #navigation input
 {
   border: solid 1px black;
-  width: 15em;
+  width: 13em;
 	margin-left: 10px;
 }
 
