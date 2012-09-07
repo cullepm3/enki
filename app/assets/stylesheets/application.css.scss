@@ -16,7 +16,7 @@ body
 {
   color: black;
 
-  font: normal 12px verdana, arial, helvetica, sans-serif;
+  font: normal 12px 'Comic Sans MS', verdana, arial, helvetica, sans-serif;
   line-height: 1.5;
   padding: 0px;
   margin: 0px;
@@ -54,24 +54,40 @@ body
 /* Headings */
 h1#page_heading
 {
-  font-size: 24pt;
+  text-align:center;
+
+  font-family: 'Bangers', cursive;
+  font-size: 50pt;
 	color: #000 !important;
-	
-  background-image:url('header2.png');
-  background-size: 955px 104px;
+
+  background-image:url('header.png');
+
 	width: 955px;
-	height:104px;
+	height:100px;
+}
+
+.post a
+{
+  font-family: 'Comic Sans MS';
+  color: black;
+}
+
+#page_heading a
+{
+  color: #black;
 }
 
 h2
 {
+  font-family: 'Bangers', cursive;
+
   font-size: 1.4em;
-  color: #333333;
+  color: darkorange;
 }
 
 h2 a, h3, h4, h5
 {
-  color: #333333;
+  color: orange;
 }
 
 /* Text */
@@ -133,7 +149,7 @@ img
   top: 112px;
   right: -1px;
 
-  border-left: solid 1px green;
+  border-left: solid 1px black;
   #border: none;
   padding: 5px;
 }
@@ -169,7 +185,7 @@ img
 {
   font-size: 1.2em;
   font-weight: bold;
-  font-family: verdana,arial,helvetica,sans-serif;
+  font-family: "Comic Sans MS", verdana,arial,helvetica,sans-serif;
 }
 
 #navigation input
@@ -489,4 +505,3 @@ ol.CodeRay li { white-space: pre }
 .ty { color:#339; font-weight:bold }
 .v  { color:#036 }
 .xt { color:#444 }
-
