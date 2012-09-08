@@ -78,12 +78,18 @@ h1#page_heading
   color: #black;
 }
 
-h2
+h1, h2, h3, h4, h5
 {
   font-family: 'Bangers', cursive;
-
-  font-size: 1.4em;
   color: darkorange;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
 }
 
 h2 a, h3, h4, h5
